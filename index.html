@@ -4,41 +4,46 @@
 <head>
   <meta charset="utf-8">
   <title>SoundCloud API</title>
-  <script src="https://connect.soundcloud.com/sdk/sdk-3.2.2.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="jukesc.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="jukestyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 
 <body>
-  <!-- <div id="outerWrap">
-    <div id="wrapper"> -->
+  <div id="outerWrap">
+    <div id="wrapper">
 
-      <label>Enter a soundcloud ID:</label>
-      <input type="text" name="search" id="search" value="https://soundcloud.com/majidjordan/body-talk"></input>
-      <button type="submit" id= "submit" name="button">SUBMIT</button>
+      <label>Enter a soundcloud URL:</label>
+      <input type="text" name="search" id="search" value=""></input>
+      <button type="submit" id="submit" name="button">SUBMIT</button>
       <!-- <input type="text" id="" value="https://soundcloud.com/jinzo-the-trap-lord/shadow-realm-beat-cypher-volume-1"></input> -->
       <button id="play" type="button" name="button">PLAY</button>
-      <button id="pause" type="button" name="button">PAUSE</button>
+      <!-- <button id="pause" type="button" name="button">PAUSE</button> -->
       <button id="stop" type="button" name="button">STOP</button>
 
       <!-- <button id="play" onclick="playSoundcloud()">PLAY</button>
       <button id="stop" onclick="stopSoundcloud()">STOP</button> -->
-<br><br>
-      <div class="labelSpacer">
-        <label>Artist:</label>
+      <br><br>
+      <div class="labelSpacerone">
+        <label id = "musican">Artist:</label>
         <div id="artist"></div>
       </div>
       <br>
-      <div class="labelSpacer">
-        <label>Song:</label>
+      <div class="labelSpacertwo">
+        <label id = "songTitle">Song:</label>
         <div id="song"></div>
       </div>
       <br>
-      <div class="labelSpacer">
-        <label>Label:</label>
+      <div class="labelSpacerthree">
+        <label id = "art">Label:</label>
         <br>
-        <img src="" alt="" id="artwork">
+        <img src="" alt="" id="artwork" width="30%" height="30%">
       </div>
+
+      <script src="https://connect.soundcloud.com/sdk/sdk-3.2.2.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="jukesc.js" charset="utf-8"></script>
+    </div>
+  </div>
 
 
 </body>

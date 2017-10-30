@@ -1,0 +1,77 @@
+body {
+  font-family: 'Indie Flower';
+  font-weight: 300;
+  font-size: 40px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  background: #000;
+  background-image: url(https://static.wixstatic.com/media/364cb9_d4116bbdba4e4178be5fddf2b167a21c.jpg);
+
+}
+
+#outerWrap {
+  margin: 0em auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border:1px solid;
+  display:block;
+}
+
+#wrapper {
+  margin: 0 auto;
+  margin-top:2em;
+  padding: .5em;
+  font-size: 1em;
+  text-align: center;
+  border-radius: .2em;
+  box-shadow: 0 .2em .4em 0 rgba(0, 0, 0, .5);
+  width:30em;
+  color: #fff;
+  /*background: #000;*/
+  background: rgba(0, 0, 0, .7);
+}
+
+#musican {
+  color: #AF9B46;
+}
+
+#songTitle{
+  color: #F7B05B;
+}
+
+#art {
+  color: #DFD6A7;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: .5em auto;
+  min-width: 30em;
+  font-size: .5em;
+  text-align: center;
+}
+
+
+button {
+  font-family: 'Indie Flower';
+  font-weight: 300;
+  font-size: 20px;
+
+}
+
+
+
+#artist {
+  display: inline;
+  font-weight: 300;
+}
+
+#song {
+  display: inline;
+  font-weight: 300;
+}
