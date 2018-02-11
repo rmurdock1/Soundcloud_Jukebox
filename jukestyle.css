@@ -12,13 +12,11 @@ body {
 
 #outerWrap {
   margin: 0em auto;
-  position: fixed;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   border:1px solid;
-  display:block;
 }
 
 #wrapper {
@@ -27,7 +25,6 @@ body {
   padding: .5em;
   font-size: 1em;
   text-align: center;
-  border-radius: .2em;
   box-shadow: 0 .2em .4em 0 rgba(0, 0, 0, .5);
   width:30em;
   color: #fff;
@@ -66,12 +63,8 @@ button {
 
 
 
-#artist {
-  display: inline;
-  font-weight: 300;
-}
-
 #song {
   display: inline;
   font-weight: 300;
+  color: #F7B05B
 }
